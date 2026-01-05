@@ -3,3 +3,9 @@ export function loader() {
     message: "Hello, coolify!",
   });
 }
+
+export function action() {
+  return Response.json({
+    message: "Hello, coolify from action!",
+  });
+}
